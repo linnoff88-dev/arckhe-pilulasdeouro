@@ -17,7 +17,7 @@ def unit(s,setter,markup=False,markdown=False):
  v=re.sub(r'https?://[^\s<>]+|\b(?:CLAUDE|AGENTS|README)\.md\b',mask,v)
  v=html.unescape(v) if markup else v
  if not re.search(r'[A-Za-zÀ-ÿ]',re.sub(r'⟪P\d+⟫','',v)):return
- if v in ['INEMA.CLUB','INEMA.PRO','INEMA','Laya','Jev','TypeSafe','Python','JSON','HTML','API','GitHub','Claude','Codex']:return
+ if v in ['ARCKHÉ AI','ARCKHÉ.PRO','ARCKHÉ','Laya','Jev','TypeSafe','Python','JSON','HTML','API','GitHub','Claude','Codex']:return
  k=key(v);CAT[k]=v
  def apply(value):
   if markup:value=html.escape(html.unescape(value),quote=False)
@@ -76,7 +76,7 @@ def pages(root):
  return [root/x for x in json.loads((root/'i18n/config.json').read_text())['pages']]
 def langnav(s,root,rel,lang):
  for e in s.select('[data-course-languages],#course-language-css,script[data-course-language-hash],link[rel="canonical"],link[rel="alternate"][hreflang]'):e.decompose()
- base='https://inematds.github.io/'+root.name+'/'
+ base='https://linnoff88-dev.github.io/arckhe-'+root.name+'/'
  current=root/(lang if lang!='pt' else '')/rel
  nav=s.new_tag('nav',attrs={'data-course-languages':'','aria-label':{'pt':'Idioma do curso','en':'Course language','es':'Idioma del curso'}[lang]})
  for code,label in [('pt','Português'),('en','English'),('es','Español')]:
@@ -123,7 +123,7 @@ def collect(root,lang):
   if lang!='pt':
    labels={'en':{'todas':'all','yellow':'yellow','green':'green','blue':'blue','pink':'pink','doubt':'question'},'es':{'todas':'todos','yellow':'amarillo','green':'verde','blue':'azul','pink':'rosa','doubt':'duda'}}[lang]
    src=src.replace('o.textContent = c;', 'o.textContent = '+json.dumps(labels)+'[c] || c;')
-   src=src.replace("'inema-journey__tag', 'duvida'","'inema-journey__tag', "+json.dumps('question' if lang=='en' else 'duda'))
+   src=src.replace("'ARCKHÉ-journey__tag', 'duvida'","'ARCKHÉ-journey__tag', "+json.dumps('question' if lang=='en' else 'duda'))
    src=src.replace("courseId:'jev-curso'","courseId:'jev-curso-"+lang+"'")
    src=src.replace("toLocaleString('pt-BR'","toLocaleString('"+lang+"'")
   outputs[Path(rel)]=src
@@ -141,9 +141,9 @@ def build(root,lang):
  for rel,obj in outputs.items():
   if isinstance(obj,BeautifulSoup):
    obj.html['lang']=lang
-   meta=obj.select_one('meta[name="inema-course"],meta[name="curso"]')
+   meta=obj.select_one('meta[name="ARCKHÉ-course"],meta[name="curso"]')
    if meta:meta['content']=meta['content']+'-'+lang
-   tag=obj.select_one('[data-inema-manifest]')
+   tag=obj.select_one('[data-ARCKHÉ-manifest]')
    if tag:
     o=json.loads(tag.string)
     if isinstance(o.get('course'),str):o['course']+='-'+lang

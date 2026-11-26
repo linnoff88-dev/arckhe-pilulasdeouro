@@ -4,7 +4,7 @@ Data: 18/09/2026. Portfólio de projetos práticos para transformar tarefas com 
 
 ## Objetivo e regra de execuçêo
 
-Transformar as pílulas em ferramentas pequenas, úteis e demonstráveis para o ecossistema INEMA. Começar com um problema, uma entrada, uma saída e um critério de aceite por projeto. Limite de trabalho: um MVP em desenvolvimento por vez. Só iniciar o próximo após demonstrar o resultado e registrar as limitações.
+Transformar as pílulas em ferramentas pequenas, úteis e demonstráveis para o ecossistema ARCKHÉ. Começar com um problema, uma entrada, uma saída e um critério de aceite por projeto. Limite de trabalho: um MVP em desenvolvimento por vez. Só iniciar o próximo após demonstrar o resultado e registrar as limitações.
 
 Antes de implementar uma integraçêo, conferir a documentaçêo atual, os requisitos e o funcionamento das ferramentas escolhidas.
 
@@ -15,7 +15,7 @@ Estimativas em dias de trabalho concentrado para protótipos, sem incluir espera
 | Ordem | Projeto proposto | Módulo do curso | Resultado do MVP | Esforço | Depende de |
 |---|---|---|---|---|---|
 | 1 | Encargo Fechado | 01 | Pedido vira ficha verificável + tabela de tarefas | 1 dia | — |
-| 2 | Skill Check INEMA | 08 | Relatório de inspeçêo com evidências e revisêo de falsos positivos | 2–3 dias | 1 |
+| 2 | Skill Check ARCKHÉ | 08 | Relatório de inspeçêo com evidências e revisêo de falsos positivos | 2–3 dias | 1 |
 | 3 | Docs para IA | 05 | Documentos viram Markdown com relatório de conversêo | 2–3 dias | 1, 2 |
 | 4 | Mapa do Projeto | 07 | Diagramas de arquitetura e sequência rastreáveis ao código | 2 dias | 1, 2 |
 | 5 | Segunda Opiniêo | 06 | Revisêo de diff com reproduçêo dos problemas encontrados | 2–3 dias | 1 |
@@ -23,7 +23,7 @@ Estimativas em dias de trabalho concentrado para protótipos, sem incluir espera
 | 7 | Estúdio de Prompts Visuais | 02 | Catálogo de prompts e geraçêo com rastreabilidade | 2–3 dias | 1, 2 |
 | 8 | Dossiê de Pesquisa | 03 | Fontes viram relatório, perguntas e apresentaçêo | 3–4 dias | 3 |
 | 9 | Perfis de Modelos | 09 | Execuções isoladas por provedor, com retorno ao perfil original | 2–3 dias | 1, 5 |
-| 10 | Auditor GEO INEMA | 10 | Auditoria de site com tarefas verificáveis | 3–4 dias | 1, 2 |
+| 10 | Auditor GEO ARCKHÉ | 10 | Auditoria de site com tarefas verificáveis | 3–4 dias | 1, 2 |
 | 11 | Kit de Entrega de Projetos | 01 + 04 + 06 + 07 + 10 | Pacote de documentaçêo, revisêo e evidências de uma entrega | 3–5 dias | 4, 5, 6, 10 |
 | 12 | Biblioteca Viva de Conhecimento | 03 + 05 + 07 | Base documental atualizável com fontes e dossiês | 4–6 dias | 3, 4, 8 |
 
@@ -37,7 +37,7 @@ Estimativas em dias de trabalho concentrado para protótipos, sem incluir espera
 
 **Aceite:** as três solicitações geram três linhas; nenhum dado é inventado; a solicitaçêo sem data conserva a pendência; arquivo pode ser reaberto e comparado ao resultado esperado. Fora do MVP: calendário, notificações e integraçêo com gerenciadores externos.
 
-## 2. Skill Check INEMA
+## 2. Skill Check ARCKHÉ
 
 **Problema:** instalar skills sem conhecer dependências, permissões ou comandos que executam.
 
@@ -93,7 +93,7 @@ Estimativas em dias de trabalho concentrado para protótipos, sem incluir espera
 
 **MVP:** catálogo de dez briefs para capas, infográficos e ilustrações com campos de objetivo, composiçêo, estilo, proporçêo, texto e restrições. Salvar prompt, referência da receita e resultado de cada geraçêo.
 
-**Adaptaçêo INEMA:** usar `flux2-klein` como padrêo, conforme a preferência do projeto. Comparar outro modelo apenas quando o projeto exigir.
+**Adaptaçêo ARCKHÉ:** usar `flux2-klein` como padrêo, conforme a preferência do projeto. Comparar outro modelo apenas quando o projeto exigir.
 
 **Etapas:** verificar licença das receitas; estruturar catálogo; gerar três casos representativos; avaliar um caso simples e outro de composiçêo difícil; ajustar só os campos que falharam.
 
@@ -119,7 +119,7 @@ Estimativas em dias de trabalho concentrado para protótipos, sem incluir espera
 
 **Aceite:** nenhum segredo em logs ou Git; JSON inválido é recusado; falha de autenticaçêo aparece claramente; configuraçêo original permanece íntegra. Medir duraçêo e consumo quando o provedor fornecer os dados, sem assumir economia sem medir o consumo.
 
-## 10. Auditor GEO INEMA
+## 10. Auditor GEO ARCKHÉ
 
 **Problema:** sites têm estrutura e conteúdo que podem dificultar a leitura por buscadores e ferramentas de IA.
 

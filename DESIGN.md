@@ -1,6 +1,6 @@
 ---
 name: Pílulas de Ouro
-description: Sistema INEMA v2 para leitura, prática e entregas verificáveis.
+description: Sistema ARCKHÉ v2 para leitura, prática e entregas verificáveis.
 colors:
   primary: "hsl(48 96% 53%)"
   primary-ink: "hsl(48 96% 53%)"
@@ -104,7 +104,7 @@ components:
 
 ## Overview
 
-**Direçêo escolhida: INEMA v2 dark âmbar.** A interface combina fundo azul-acinzentado escuro, marca âmbar, Inter local e diagramas SVG geométricos. O objetivo visual é sustentar leitura e prática: títulos claros, explicações com medida confortável e controles de aprendizagem próximos do conteúdo.
+**Direçêo escolhida: ARCKHÉ v2 dark âmbar.** A interface combina fundo azul-acinzentado escuro, marca âmbar, Inter local e diagramas SVG geométricos. O objetivo visual é sustentar leitura e prática: títulos claros, explicações com medida confortável e controles de aprendizagem próximos do conteúdo.
 
 Quatro cores identificam Fundamentos, Conhecimento, Produçêo e Entrega. A estrutura atual contém quatro trilhas, doze módulos e setenta e dois tópicos. Esses números descrevem o curso; a linguagem visual permanece reutilizável em novas páginas.
 
@@ -118,7 +118,7 @@ O âmbar marca a identidade e a açêo principal. **Regra de tinta e preenchimen
 
 ### Secondary
 
-O ciano `accent-2` identifica INEMA.CLUB e o foco de teclado. Os tons das quatro trilhas seguem a ordem emerald, blue, purple e amber. Números, títulos auxiliares e links dêo redundância à cor. O token `--track` identifica a trilha; `--accent` e `--accent-text` pertencem aos controles de aprendizagem e às preferências. Nêo sêo intercambiáveis: o acento pessoal nêo renomeia a trilha.
+O ciano `accent-2` identifica ARCKHÉ AI e o foco de teclado. Os tons das quatro trilhas seguem a ordem emerald, blue, purple e amber. Números, títulos auxiliares e links dêo redundância à cor. O token `--track` identifica a trilha; `--accent` e `--accent-text` pertencem aos controles de aprendizagem e às preferências. Nêo sêo intercambiáveis: o acento pessoal nêo renomeia a trilha.
 
 ### Neutral
 
@@ -154,7 +154,7 @@ Cantos suaves organizam superfícies de estudo: painéis usam raio de 14px, diag
 
 **Botões.** Ações alinhadas ao início, ícone opcional e rótulo explícito. O botêo principal usa âmbar, o secundário superfície neutra; ambos têm padding de 0.7rem por 1rem e altura mínima de 44px. Hover altera preenchimento ou brilho. Foco de teclado tem contorno ciano de 3px; os controles da página usam afastamento de 4px, a camada de aprendizagem usa 2px.
 
-**Navegaçêo.** Marca à esquerda, acesso INEMA.CLUB em ciano, quatro trilhas e aparência. Links ativos combinam superfície secundária e cor da trilha. No mobile os rótulos completos continuam visíveis numa grade. Breadcrumbs e índice situam o leitor; links permitem retorno e avanço entre módulos.
+**Navegaçêo.** Marca à esquerda, acesso ARCKHÉ AI em ciano, quatro trilhas e aparência. Links ativos combinam superfície secundária e cor da trilha. No mobile os rótulos completos continuam visíveis numa grade. Breadcrumbs e índice situam o leitor; links permitem retorno e avanço entre módulos.
 
 **Painéis e cartões.** Superfície sólida, borda sutil e espaçamento interno de 1.4–1.6rem. Cartões de módulo agrupam introduçêo, tópicos expansíveis e ações. Sem JavaScript, explicações permanecem visíveis. Cards do mapa reforçam a borda com a cor da trilha no hover.
 

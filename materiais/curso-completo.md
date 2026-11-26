@@ -1,6 +1,6 @@
 # Pílulas de Ouro — IA em projetos práticos
 
-INEMA · versêo 1.1.0
+ARCKHÉ · versêo 1.1.0
 
 ## 1.1 · Um pedido com começo e fim
 

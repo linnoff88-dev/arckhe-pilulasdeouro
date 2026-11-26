@@ -6,9 +6,9 @@
 </div>
 
 
-Curso em portuguêÂªs no formato INEMA v2: **4 trilhas, 12 mêÂ³dulos, 72 têÂ³picos e 12 prêÂ¡ticas**. Inclui exemplos, exercêÂ­cios com conferêÂªncia, dois projetos de conclusêÂ£o, progresso de leitura, dêÂºvidas, grifos, anotaêÂ§êÂµes e exportaêÂ§êÂ£o da jornada.
+Curso em portuguêÂªs no formato ARCKHÉ v2: **4 trilhas, 12 mêÂ³dulos, 72 têÂ³picos e 12 prêÂ¡ticas**. Inclui exemplos, exercêÂ­cios com conferêÂªncia, dois projetos de conclusêÂ£o, progresso de leitura, dêÂºvidas, grifos, anotaêÂ§êÂµes e exportaêÂ§êÂ£o da jornada.
 
-[Abrir o curso](https://inematds.github.io/pilulasdeouro/) êÂ· [Materiais do aluno](https://inematds.github.io/pilulasdeouro/materiais/) êÂ· [Plano de projetos](PLANO-PROJETOS.md)
+[Abrir o curso](https://linnoff88-dev.github.io/arckhe-/) êÂ· [Materiais do aluno](https://linnoff88-dev.github.io/arckhe-/materiais/) êÂ· [Plano de projetos](PLANO-PROJETOS.md)
 
 ## Estudar
 
@@ -40,13 +40,13 @@ GitHub Pages publica a raiz da branch `main` deste repositêÂ³rio. O curso e
 
 A licenêÂ§a da fonte Inter acompanha os arquivos em `assets/inter-LICENSE.txt`.
 
-<!-- inema-backlink:v1 -->
-## Mais no INEMA.CLUB
+<!-- ARCKHÉ-backlink:v1 -->
+## Mais no ARCKHÉ AI
 
-- [Ficha completa deste curso](https://www.inema.club/cursos/275-pilulas-de-ouro-ia-em-projetos-praticos/)
-- [Guia: como aprender inteligêÂªncia artificial](https://www.inema.club/aprender-inteligencia-artificial/)
-- [Todos os cursos](https://www.inema.club/cursos/)
-<!-- /inema-backlink:v1 -->
+- [Ficha completa deste curso](https://www.ARCKHÉ AI/cursos/275-pilulas-de-ouro-ia-em-projetos-praticos/)
+- [Guia: como aprender inteligêÂªncia artificial](https://www.ARCKHÉ AI/aprender-inteligencia-artificial/)
+- [Todos os cursos](https://www.ARCKHÉ AI/cursos/)
+<!-- /ARCKHÉ-backlink:v1 -->
 
 ---
 

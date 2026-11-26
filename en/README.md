@@ -1,8 +1,8 @@
 # Pílulas de Ouro — AI in practical projects
 
-Course in Portuguese in INEMA v2 format: **4 tracks, 12 modules, 72 topics, and 12 practices**. Includes examples, exercises with checking, two final projects, reading progress, questions, highlights, notes, and export of your journey.
+Course in Portuguese in ARCKHÉ v2 format: **4 tracks, 12 modules, 72 topics, and 12 practices**. Includes examples, exercises with checking, two final projects, reading progress, questions, highlights, notes, and export of your journey.
 
-[Open the course](https://inematds.github.io/pilulasdeouro/) · [Student materials](https://inematds.github.io/pilulasdeouro/materiais/) · [Project plan](PLANO-PROJETOS.md)
+[Open the course](https://linnoff88-dev.github.io/arckhe-/) · [Student materials](https://linnoff88-dev.github.io/arckhe-/materiais/) · [Project plan](PLANO-PROJETOS.md)
 
 ## Study
 

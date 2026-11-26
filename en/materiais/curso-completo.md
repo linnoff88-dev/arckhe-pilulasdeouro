@@ -1,6 +1,6 @@
 # Pílulas de Ouro — AI in practical projects
 
-INEMA · version 1.1.0
+ARCKHÉ · version 1.1.0
 
 ## 1.1 · A request with a beginning and an end
 

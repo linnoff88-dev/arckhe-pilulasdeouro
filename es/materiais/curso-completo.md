@@ -1,6 +1,6 @@
 # Pílulas de Ouro — IA en proyectos prácticos
 
-INEMA · versión 1.1.0
+ARCKHÉ · versión 1.1.0
 
 ## 1.1 · Un pedido con principio y fin
 

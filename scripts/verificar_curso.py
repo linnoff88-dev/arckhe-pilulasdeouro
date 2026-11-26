@@ -11,8 +11,8 @@ class Page(HTMLParser):
         a=dict(attrs)
         if 'id' in a:self.ids.append(a['id'])
         if tag=='h1':self.h1+=1
-        if 'data-inema-topic' in a:self.topics.append(a['data-inema-topic'])
-        if tag=='script' and 'data-inema-manifest' in a:self.in_manifest=True
+        if 'data-ARCKHÉ-topic' in a:self.topics.append(a['data-ARCKHÉ-topic'])
+        if tag=='script' and 'data-ARCKHÉ-manifest' in a:self.in_manifest=True
         for k in ('href','src'):
             if a.get(k):self.links.append(a[k])
     def handle_data(self,s):

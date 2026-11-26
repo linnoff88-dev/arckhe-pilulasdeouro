@@ -4,7 +4,7 @@ Date: 18/09/2026. A portfolio of practical projects to turn AI tasks into verifi
 
 ## Goal and execution rule
 
-Turn the pills into small, useful, demonstrable tools for the INEMA ecosystem. Start with a problem, an input, an output, and an acceptance criterion per project. Work limit: only one MVP in development at a time. Only start the next one after demonstrating the result and recording the limitations.
+Turn the pills into small, useful, demonstrable tools for the ARCKHÉ ecosystem. Start with a problem, an input, an output, and an acceptance criterion per project. Work limit: only one MVP in development at a time. Only start the next one after demonstrating the result and recording the limitations.
 
 Before implementing an integration, check the current documentation, the requirements, and how the selected tools work.
 
@@ -15,7 +15,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 | Order | Proposed project | Course module | MVP result | Effort | Depends on |
 |---|---|---|---|---|---|
 | 1 | Encargo Fechado | 01 | Request becomes a verifiable card + task table | 1 day | — |
-| 2 | Skill Check INEMA | 08 | Inspection report with evidence and review of false positives | 2–3 days | 1 |
+| 2 | Skill Check ARCKHÉ | 08 | Inspection report with evidence and review of false positives | 2–3 days | 1 |
 | 3 | Docs for AI | 05 | Documents become Markdown with conversion report | 2–3 days | 1, 2 |
 | 4 | Project Map | 07 | Architecture and sequence diagrams traceable to code | 2 days | 1, 2 |
 | 5 | Segunda Opiniêo | 06 | Diff review with reproduction of the issues found | 2–3 days | 1 |
@@ -23,7 +23,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 | 7 | Estúdio de Prompts Visuais | 02 | Prompt catalog and generation with traceability | 2–3 days | 1, 2 |
 | 8 | Dossiê de Pesquisa | 03 | Sources become a report, questions, and a presentation | 3–4 days | 3 |
 | 9 | Perfis de Modelos | 09 | Isolated executions per provider, returning to the original profile | 2–3 days | 1, 5 |
-| 10 | Auditor GEO INEMA | 10 | Site audit with verifiable tasks | 3–4 days | 1, 2 |
+| 10 | Auditor GEO ARCKHÉ | 10 | Site audit with verifiable tasks | 3–4 days | 1, 2 |
 | 11 | Kit de Entrega de Projetos | 01 + 04 + 06 + 07 + 10 | Documentation package, review, and evidence for a deliverable | 3–5 days | 4, 5, 6, 10 |
 | 12 | Biblioteca Viva de Conhecimento | 03 + 05 + 07 | Updateable document base with sources and dossiers | 4–6 days | 3, 4, 8 |
 
@@ -37,7 +37,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 
 **Acceptance:** the three requests generate three lines; no data is invented; the request without a date keeps the pending status; the file can be reopened and compared to the expected result. Outside the MVP: calendar, notifications, and integration with external managers.
 
-## 2. Skill Check INEMA
+## 2. Skill Check ARCKHÉ
 
 **Problem:** installing skills without knowing dependencies, permissions, or commands that execute.
 
@@ -93,7 +93,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 
 **MVP:** a catalog of ten briefs for covers, infographics, and illustrations with fields for objective, composition, style, proportion, text, and restrictions. Save the prompt, recipe reference, and the result of each generation.
 
-**INEMA adaptation:** use `flux2-klein` as the standard, according to the project’s preference. Compare another model only when the project requires it.
+**ARCKHÉ adaptation:** use `flux2-klein` as the standard, according to the project’s preference. Compare another model only when the project requires it.
 
 **Steps:** verify license of the recipes; structure the catalog; generate three representative cases; evaluate one simple case and one difficult composition case; adjust only the fields that failed.
 
@@ -119,7 +119,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 
 **Acceptance:** no secrets in logs or Git; invalid JSON is rejected; authentication failure appears clearly; original configuration remains intact. Measure duration and consumption when the provider provides the data, without assuming savings without measuring consumption.
 
-## 10. Auditor GEO INEMA
+## 10. Auditor GEO ARCKHÉ
 
 **Problem:** websites have structure and content that can make them harder for search engines and AI tools to read.
 

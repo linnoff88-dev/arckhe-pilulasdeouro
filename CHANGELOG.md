@@ -8,7 +8,7 @@
 
 ## v1.0.0 — 2026-09-18
 
-- Primeira ediçêo do curso, no formato visual e de aprendizagem INEMA v2.
+- Primeira ediçêo do curso, no formato visual e de aprendizagem ARCKHÉ v2.
 - Quatro trilhas, 12 módulos, 72 tópicos, 12 práticas e dois projetos de conclusêo.
 - Materiais próprios para baixar, temas de leitura, progresso, dúvidas, grifos e anotações.
 - Exportaçêo/importaçêo validada, retomada entre páginas e leitura sem JavaScript.

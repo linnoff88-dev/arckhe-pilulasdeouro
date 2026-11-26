@@ -1,8 +1,8 @@
 # Pílulas de Ouro — IA en proyectos prácticos
 
-Curso en portugués en formato INEMA v2: **4 trilhas, 12 módulos, 72 tópicos y 12 prácticas**. Incluye ejemplos, ejercicios con verificación, dos proyectos de cierre, progreso de lectura, dudas, resaltados, anotaciones y exportación del recorrido.
+Curso en portugués en formato ARCKHÉ v2: **4 trilhas, 12 módulos, 72 tópicos y 12 prácticas**. Incluye ejemplos, ejercicios con verificación, dos proyectos de cierre, progreso de lectura, dudas, resaltados, anotaciones y exportación del recorrido.
 
-[Abrir el curso](https://inematds.github.io/pilulasdeouro/) · [Materiales del alumno](https://inematds.github.io/pilulasdeouro/materiais/) · [Plan de proyectos](PLANO-PROJETOS.md)
+[Abrir el curso](https://linnoff88-dev.github.io/arckhe-/) · [Materiales del alumno](https://linnoff88-dev.github.io/arckhe-/materiais/) · [Plan de proyectos](PLANO-PROJETOS.md)
 
 ## Estudiar
 
