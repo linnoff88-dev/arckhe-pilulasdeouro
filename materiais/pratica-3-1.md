@@ -2,22 +2,22 @@
 
 ## Entrega
 
-Uma comparação antes/depois com três melhorias verificadas.
+Uma comparaçêo antes/depois com três melhorias verificadas.
 
 ## Exercício
 
-Um pedido sem prazo aparece somente com fundo vermelho. O botão principal se chama “OK”. Proponha mudanças que deixem o próximo passo explícito.
+Um pedido sem prazo aparece somente com fundo vermelho. O botêo principal se chama “OK”. Proponha mudanças que deixem o próximo passo explícito.
 
 ## Critérios
 
-- [ ] A pendência é localizada sem adivinhação.
+- [ ] A pendência é localizada sem adivinhaçêo.
 - [ ] Todas as ações funcionam por teclado.
-- [ ] Texto longo não invade outros campos.
+- [ ] Texto longo nêo invade outros campos.
 
 ## Meu resultado
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

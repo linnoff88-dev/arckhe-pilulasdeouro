@@ -1,8 +1,8 @@
-# Prática 1.3 — Uma segunda opinião que ajuda
+# Prática 1.3 — Uma segunda opiniêo que ajuda
 
 ## Entrega
 
-Um relatório curto com um problema reproduzido e sua correção mínima.
+Um relatório curto com um problema reproduzido e sua correçêo mínima.
 
 ## Exercício
 
@@ -11,13 +11,13 @@ O pedido R-14, “revisar catálogo”, chega duas vezes por uma nova tentativa 
 ## Critérios
 
 - [ ] Duas entradas iguais demonstram o problema.
-- [ ] A mesma intenção produz um único efeito.
-- [ ] Conteúdo divergente não é descartado silenciosamente.
+- [ ] A mesma intençêo produz um único efeito.
+- [ ] Conteúdo divergente nêo é descartado silenciosamente.
 
 ## Meu resultado
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

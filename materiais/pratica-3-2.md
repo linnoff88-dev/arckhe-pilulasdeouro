@@ -2,11 +2,11 @@
 
 ## Entrega
 
-Um briefing reutilizável e uma avaliação de três resultados visuais.
+Um briefing reutilizável e uma avaliaçêo de três resultados visuais.
 
 ## Exercício
 
-Crie briefs para Organização, Pesquisa e Entrega. Mantenha proporção 16:9, fundo discreto e espaço de título à esquerda. Explique uma diferença permitida e duas constantes.
+Crie briefs para Organizaçêo, Pesquisa e Entrega. Mantenha proporçêo 16:9, fundo discreto e espaço de título à esquerda. Explique uma diferença permitida e duas constantes.
 
 ## Critérios
 
@@ -18,6 +18,6 @@ Crie briefs para Organização, Pesquisa e Entrega. Mantenha proporção 16:9, f
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

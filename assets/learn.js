@@ -1771,7 +1771,7 @@
       return Object.keys(v).some(function(k) { return ['__proto__','prototype','constructor'].indexOf(k) !== -1 || dangerous(v[k]); });
     };
     if (parsed.schemaVersion !== SCHEMA_VERSION || parsed.courseId !== S.courseId || dangerous(parsed)) {
-      return {ok:false, applied:0, skipped:0, errors:['Arquivo de outro curso ou versão inválida.']};
+      return {ok:false, applied:0, skipped:0, errors:['Arquivo de outro curso ou versêo inválida.']};
     }
     if (['read','doubts','notes','checks','meta'].some(function(k) { return parsed[k] != null && !record(parsed[k]); })) {
       return {ok:false, applied:0, skipped:0, errors:['Estrutura de progresso inválida.']};
@@ -2201,7 +2201,7 @@
     if (S.bound) return;
     var main = document.querySelector('main') || document.body;
 
-    // Delegação também cobre a barra de aprendizagem fora do main.
+    // Delegaçêo também cobre a barra de aprendizagem fora do main.
     document.addEventListener('click', onMainClick);
 
     // teclado: Space/Enter em botoes de lido (aria-pressed) ja e nativo em <button>

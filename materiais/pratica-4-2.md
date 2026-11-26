@@ -12,12 +12,12 @@ Implemente ou prototipe a central com os dados do exemplo. Acrescente um P-01 co
 
 - [ ] Importar e exportar preserva campos e acentos.
 - [ ] Prazo ausente continua identificado.
-- [ ] Mesma entrada não gera efeitos extras.
+- [ ] Mesma entrada nêo gera efeitos extras.
 
 ## Meu resultado
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

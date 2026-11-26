@@ -1,14 +1,14 @@
 # Estado atual — 18/09/2026
 
-Curso concluído no formato INEMA v2 escolhido pelo usuário: 4 trilhas, 12 módulos, 72 tópicos e 12 práticas. Conteúdo editorial próprio em português, com exemplos fictícios e dois projetos de conclusão. Dezoito páginas estáticas geradas.
+Curso concluído no formato INEMA v2 escolhido pelo usuário: 4 trilhas, 12 módulos, 72 tópicos e 12 práticas. Conteúdo editorial próprio em português, com exemplos fictícios e dois projetos de conclusêo. Dezoito páginas estáticas geradas.
 
-- Dez vídeos transcritos e acervo conferido localmente; materiais de preparação em `down/`, fora do Git.
-- Progresso, dúvidas, grifos, notas, exportação/importação e retomada entre páginas verificados em navegador.
+- Dez vídeos transcritos e acervo conferido localmente; materiais de preparaçêo em `down/`, fora do Git.
+- Progresso, dúvidas, grifos, notas, exportaçêo/importaçêo e retomada entre páginas verificados em navegador.
 - Desktop e celular de 360 px conferidos; temas claro, escuro e sépia revisados; conteúdo legível sem JavaScript e aprendizagem tolerante a armazenamento indisponível.
 - Validador de estrutura e links: `python3 scripts/verificar_curso.py`.
-- Revisão visual independente aprovada após corrigir contraste de rótulos e estado lido.
-- Publicação autorizada para `inematds/pilulasdeouro`, GitHub Pages e catálogos INEMA. Publicado: GitHub Pages respondeu HTTP 200 no índice, módulos e materiais.
-- Portal usa autor NeiMaldaner; curso, busca e PRO usam inematds. Publicação exclusivamente via Git, sem consultar Vercel.
+- Revisêo visual independente aprovada após corrigir contraste de rótulos e estado lido.
+- Publicaçêo autorizada para `inematds/pilulasdeouro`, GitHub Pages e catálogos INEMA. Publicado: GitHub Pages respondeu HTTP 200 no índice, módulos e materiais.
+- Portal usa autor NeiMaldaner; curso, busca e PRO usam inematds. Publicaçêo exclusivamente via Git, sem consultar Vercel.
 
 ## Catálogos enviados
 
@@ -16,7 +16,7 @@ Curso concluído no formato INEMA v2 escolhido pelo usuário: 4 trilhas, 12 mód
 - Busca: `b037c8d` (remoto `inemabuscas`; origin desse clone aponta para outro projeto).
 - PRO: `b72bd81` (origin).
 - Base gerada: 18.248 itens, incluindo 276 cursos e 234 projetos. O novo curso está classificado.
-- Os catálogos foram finalizados em worktrees isoladas. Uma edição simultânea de JEV entrou no mesmo commit do portal e foi preservada; não reverter alterações alheias.
+- Os catálogos foram finalizados em worktrees isoladas. Uma ediçêo simultânea de JEV entrou no mesmo commit do portal e foi preservada; nêo reverter alterações alheias.
 
 ## Multilíngue — 21/09/2026 — v1.1.0
 

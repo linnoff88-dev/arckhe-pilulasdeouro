@@ -18,6 +18,6 @@ A-01: Padaria Horizonte pede revisar o cardápio até 22/10/2026. A-02: Ateliê 
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

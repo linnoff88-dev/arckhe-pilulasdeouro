@@ -1,4 +1,4 @@
-"""Valida estrutura, manifesto e links locais da publicação estática."""
+"""Valida estrutura, manifesto e links locais da publicaçêo estática."""
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote

@@ -6,11 +6,11 @@ Um relatório curto com perguntas, evidências e lacunas visíveis.
 
 ## Exercício
 
-Documento A, Catálogo, seção Prazos: “Organização de catálogo: cinco dias úteis após os arquivos completos”. Documento B, mensagem de atendimento: “Talvez consigamos entregar em três dias se o material vier revisado”. Qual prazo comunicar?
+Documento A, Catálogo, seçêo Prazos: “Organizaçêo de catálogo: cinco dias úteis após os arquivos completos”. Documento B, mensagem de atendimento: “Talvez consigamos entregar em três dias se o material vier revisado”. Qual prazo comunicar?
 
 ## Critérios
 
-- [ ] Cada afirmação central tem localização.
+- [ ] Cada afirmaçêo central tem localizaçêo.
 - [ ] A divergência é explicada.
 - [ ] O dado ausente continua explícito.
 
@@ -18,6 +18,6 @@ Documento A, Catálogo, seção Prazos: “Organização de catálogo: cinco dia
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

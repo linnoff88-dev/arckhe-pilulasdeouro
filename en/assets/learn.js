@@ -2201,7 +2201,7 @@
     if (S.bound) return;
     var main = document.querySelector('main') || document.body;
 
-    // Delegação também cobre a barra de aprendizagem fora do main.
+    // Delegaçêo também cobre a barra de aprendizagem fora do main.
     document.addEventListener('click', onMainClick);
 
     // teclado: Space/Enter em botoes de lido (aria-pressed) ja e nativo em <button>

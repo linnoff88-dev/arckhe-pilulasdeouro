@@ -104,9 +104,9 @@ components:
 
 ## Overview
 
-**Direção escolhida: INEMA v2 dark âmbar.** A interface combina fundo azul-acinzentado escuro, marca âmbar, Inter local e diagramas SVG geométricos. O objetivo visual é sustentar leitura e prática: títulos claros, explicações com medida confortável e controles de aprendizagem próximos do conteúdo.
+**Direçêo escolhida: INEMA v2 dark âmbar.** A interface combina fundo azul-acinzentado escuro, marca âmbar, Inter local e diagramas SVG geométricos. O objetivo visual é sustentar leitura e prática: títulos claros, explicações com medida confortável e controles de aprendizagem próximos do conteúdo.
 
-Quatro cores identificam Fundamentos, Conhecimento, Produção e Entrega. A estrutura atual contém quatro trilhas, doze módulos e setenta e dois tópicos. Esses números descrevem o curso; a linguagem visual permanece reutilizável em novas páginas.
+Quatro cores identificam Fundamentos, Conhecimento, Produçêo e Entrega. A estrutura atual contém quatro trilhas, doze módulos e setenta e dois tópicos. Esses números descrevem o curso; a linguagem visual permanece reutilizável em novas páginas.
 
 Características: superfícies sólidas; hierarquia por tipografia e espaçamento; diagramas explicativos; temas de leitura; estados acompanhados de texto. Documento extraído de `assets/learn.css`, `assets/site.css`, `assets/fonts.css` e do contrato visual em `index.html`. O sidecar `.impeccable/design.json` reúne extensões e exemplos.
 
@@ -114,55 +114,55 @@ Características: superfícies sólidas; hierarquia por tipografia e espaçament
 
 ### Primary
 
-O âmbar marca a identidade e a ação principal. **Regra de tinta e preenchimento:** `--primary` serve ao preenchimento, `--primary-ink` ao texto âmbar e `--on-primary` ao texto sobre botões preenchidos. A tinta escurece em claro e sépia; não aplicar o amarelo de preenchimento diretamente sobre esses fundos. O botão principal da página usa atualmente o texto escuro do tema padrão de forma literal; os controles da camada de aprendizagem usam `--on-primary`.
+O âmbar marca a identidade e a açêo principal. **Regra de tinta e preenchimento:** `--primary` serve ao preenchimento, `--primary-ink` ao texto âmbar e `--on-primary` ao texto sobre botões preenchidos. A tinta escurece em claro e sépia; nêo aplicar o amarelo de preenchimento diretamente sobre esses fundos. O botêo principal da página usa atualmente o texto escuro do tema padrêo de forma literal; os controles da camada de aprendizagem usam `--on-primary`.
 
 ### Secondary
 
-O ciano `accent-2` identifica INEMA.CLUB e o foco de teclado. Os tons das quatro trilhas seguem a ordem emerald, blue, purple e amber. Números, títulos auxiliares e links dão redundância à cor. O token `--track` identifica a trilha; `--accent` e `--accent-text` pertencem aos controles de aprendizagem e às preferências. Não são intercambiáveis: o acento pessoal não renomeia a trilha.
+O ciano `accent-2` identifica INEMA.CLUB e o foco de teclado. Os tons das quatro trilhas seguem a ordem emerald, blue, purple e amber. Números, títulos auxiliares e links dêo redundância à cor. O token `--track` identifica a trilha; `--accent` e `--accent-text` pertencem aos controles de aprendizagem e às preferências. Nêo sêo intercambiáveis: o acento pessoal nêo renomeia a trilha.
 
 ### Neutral
 
-Fundo, superfície, superfície secundária, texto e bordas formam camadas sólidas. Os tokens sem prefixo no frontmatter representam o dark padrão. As famílias `light-*`, `sepia-*` e `contrast-*` registram os valores efetivos após a cascata de `site.css`, inclusive texto secundário e bordas reforçadas.
+Fundo, superfície, superfície secundária, texto e bordas formam camadas sólidas. Os tokens sem prefixo no frontmatter representam o dark padrêo. As famílias `light-*`, `sepia-*` e `contrast-*` registram os valores efetivos após a cascata de `site.css`, inclusive texto secundário e bordas reforçadas.
 
-Claro retira a classe `dark`; sépia e contraste acrescentam seus atributos de tema. Foco é uma preferência de apresentação: reduz elementos laterais, sem criar outra paleta. Novos componentes devem consumir variáveis semânticas, preservando todos esses modos.
+Claro retira a classe `dark`; sépia e contraste acrescentam seus atributos de tema. Foco é uma preferência de apresentaçêo: reduz elementos laterais, sem criar outra paleta. Novos componentes devem consumir variáveis semânticas, preservando todos esses modos.
 
 ## Typography
 
-Inter é servida localmente, em pesos 400, 500, 600, 700 e 800, com `font-display: swap`. Display e corpo compartilham a família; hierarquia vem de tamanho, peso e ritmo. O hero usa display, títulos de página usam `clamp(2rem, 4vw, 3.3rem)` e títulos de tópico usam 1.6rem. O corpo geral tem entrelinha 1.65; a prosa tem 1.7 e medida padrão de 68ch.
+Inter é servida localmente, em pesos 400, 500, 600, 700 e 800, com `font-display: swap`. Display e corpo compartilham a família; hierarquia vem de tamanho, peso e ritmo. O hero usa display, títulos de página usam `clamp(2rem, 4vw, 3.3rem)` e títulos de tópico usam 1.6rem. O corpo geral tem entrelinha 1.65; a prosa tem 1.7 e medida padrêo de 68ch.
 
-Preferências de prosa oferecem medida de 60, 68 ou 75ch, entrelinha compacta ou confortável e escala relativa da fonte. A escolha de fonte afeta a prosa; o chrome mantém Inter. A opção de leitura declara Atkinson Hyperlegible e cai para Inter quando ela não está disponível; apenas Inter tem arquivos locais registrados. Código usa `ui-monospace, SFMono-Regular, Consolas, monospace`, tamanho 0.82rem e entrelinha 1.7.
+Preferências de prosa oferecem medida de 60, 68 ou 75ch, entrelinha compacta ou confortável e escala relativa da fonte. A escolha de fonte afeta a prosa; o chrome mantém Inter. A opçêo de leitura declara Atkinson Hyperlegible e cai para Inter quando ela nêo está disponível; apenas Inter tem arquivos locais registrados. Código usa `ui-monospace, SFMono-Regular, Consolas, monospace`, tamanho 0.82rem e entrelinha 1.7.
 
 ## Layout
 
-O contêiner central mede no máximo 1160px, com margem lateral total de 3rem no desktop e 2rem no mobile. O hero usa duas colunas proporcionais (1.15:1); páginas de módulo usam índice lateral de 210px e área flexível, separados por 3rem. O mapa de módulos tem três colunas. A lista de trilhas é organizada em linhas com número, título, descrição e acesso.
+O contêiner central mede no máximo 1160px, com margem lateral total de 3rem no desktop e 2rem no mobile. O hero usa duas colunas proporcionais (1.15:1); páginas de módulo usam índice lateral de 210px e área flexível, separados por 3rem. O mapa de módulos tem três colunas. A lista de trilhas é organizada em linhas com número, título, descriçêo e acesso.
 
-Em 1050px o índice passa a 170px e detalhes da navegação encolhem. Em 720px o conteúdo principal vira uma coluna, a navegação de trilhas forma grade de duas colunas e as estatísticas ficam em duas colunas. A camada de aprendizagem tem também ajustes próprios em 1024px para seu índice e 640px para o painel de jornada. O índice efetivo da página usa o comportamento de `site.css`.
+Em 1050px o índice passa a 170px e detalhes da navegaçêo encolhem. Em 720px o conteúdo principal vira uma coluna, a navegaçêo de trilhas forma grade de duas colunas e as estatísticas ficam em duas colunas. A camada de aprendizagem tem também ajustes próprios em 1024px para seu índice e 640px para o painel de jornada. O índice efetivo da página usa o comportamento de `site.css`.
 
-A prosa limita somente a leitura; tabelas, código e figuras podem aproveitar a largura da área. Diagramas têm versões verticais no mobile; o diagrama do hero usa a versão vertical em todos os tamanhos. Navegação fixa e âncoras mantêm compensação de altura. Foco esconde o índice lateral e centraliza o módulo em até 900px.
+A prosa limita somente a leitura; tabelas, código e figuras podem aproveitar a largura da área. Diagramas têm versões verticais no mobile; o diagrama do hero usa a versêo vertical em todos os tamanhos. Navegaçêo fixa e âncoras mantêm compensaçêo de altura. Foco esconde o índice lateral e centraliza o módulo em até 900px.
 
 ## Elevation & Depth
 
 A profundidade vem sobretudo de superfícies e bordas, sem sombra nos cartões comuns. Sombras ficam em popovers, painel de jornada e avisos temporários. O popover da página usa `0 12px 32px #0003`; a jornada usa `-12px 0 40px hsl(220 40% 4% / 0.3)`. O preview tem backdrop escuro e conteúdo contido em diálogo.
 
-Mudanças de estado são discretas: cor, borda e sublinhado. A camada de aprendizagem tem durações de 120, 180 e 320ms com curva `cubic-bezier(0.4, 0, 0.2, 1)`. Movimento reduzido desativa animações, transições e rolagem suave.
+Mudanças de estado sêo discretas: cor, borda e sublinhado. A camada de aprendizagem tem durações de 120, 180 e 320ms com curva `cubic-bezier(0.4, 0, 0.2, 1)`. Movimento reduzido desativa animações, transições e rolagem suave.
 
 ## Shapes
 
-Cantos suaves organizam superfícies de estudo: painéis usam raio de 14px, diagramas e cartões compactos 12px, hero 16px. Controles usam 8–9px; etiquetas e alguns controles de estado são pílulas. Números de tópico e etapas são circulares. A marca é um símbolo hexagonal em SVG. Bordas finas separam linhas e áreas de leitura sem criar caixas em torno de cada parágrafo.
+Cantos suaves organizam superfícies de estudo: painéis usam raio de 14px, diagramas e cartões compactos 12px, hero 16px. Controles usam 8–9px; etiquetas e alguns controles de estado sêo pílulas. Números de tópico e etapas sêo circulares. A marca é um símbolo hexagonal em SVG. Bordas finas separam linhas e áreas de leitura sem criar caixas em torno de cada parágrafo.
 
 ## Components
 
-**Botões.** Ações alinhadas ao início, ícone opcional e rótulo explícito. O botão principal usa âmbar, o secundário superfície neutra; ambos têm padding de 0.7rem por 1rem e altura mínima de 44px. Hover altera preenchimento ou brilho. Foco de teclado tem contorno ciano de 3px; os controles da página usam afastamento de 4px, a camada de aprendizagem usa 2px.
+**Botões.** Ações alinhadas ao início, ícone opcional e rótulo explícito. O botêo principal usa âmbar, o secundário superfície neutra; ambos têm padding de 0.7rem por 1rem e altura mínima de 44px. Hover altera preenchimento ou brilho. Foco de teclado tem contorno ciano de 3px; os controles da página usam afastamento de 4px, a camada de aprendizagem usa 2px.
 
-**Navegação.** Marca à esquerda, acesso INEMA.CLUB em ciano, quatro trilhas e aparência. Links ativos combinam superfície secundária e cor da trilha. No mobile os rótulos completos continuam visíveis numa grade. Breadcrumbs e índice situam o leitor; links permitem retorno e avanço entre módulos.
+**Navegaçêo.** Marca à esquerda, acesso INEMA.CLUB em ciano, quatro trilhas e aparência. Links ativos combinam superfície secundária e cor da trilha. No mobile os rótulos completos continuam visíveis numa grade. Breadcrumbs e índice situam o leitor; links permitem retorno e avanço entre módulos.
 
-**Painéis e cartões.** Superfície sólida, borda sutil e espaçamento interno de 1.4–1.6rem. Cartões de módulo agrupam introdução, tópicos expansíveis e ações. Sem JavaScript, explicações permanecem visíveis. Cards do mapa reforçam a borda com a cor da trilha no hover.
+**Painéis e cartões.** Superfície sólida, borda sutil e espaçamento interno de 1.4–1.6rem. Cartões de módulo agrupam introduçêo, tópicos expansíveis e ações. Sem JavaScript, explicações permanecem visíveis. Cards do mapa reforçam a borda com a cor da trilha no hover.
 
-**Diagramas.** SVG com blocos, setas, rótulos e legenda explica relações do conteúdo. A composição pode mudar no mobile para preservar a leitura. Ilustração deve transmitir um conceito; não é textura de fundo.
+**Diagramas.** SVG com blocos, setas, rótulos e legenda explica relações do conteúdo. A composiçêo pode mudar no mobile para preservar a leitura. Ilustraçêo deve transmitir um conceito; nêo é textura de fundo.
 
-**Leitura e prática.** Comparações lado a lado, passos numerados, caixas de prompt com cópia, tabelas, prática e respostas em `details` atendem funções distintas. Comparações se empilham no mobile. Cor de acerto/erro acompanha texto explicativo; checagem não bloqueia o estudo.
+**Leitura e prática.** Comparações lado a lado, passos numerados, caixas de prompt com cópia, tabelas, prática e respostas em `details` atendem funções distintas. Comparações se empilham no mobile. Cor de acerto/erro acompanha texto explicativo; checagem nêo bloqueia o estudo.
 
-**Controles de aprendizagem.** Marcar lido e dúvida usam estado pressionado, texto e cor. Barras mostram progresso numérico junto à representação visual. A jornada abre à direita, ocupa até 30rem no desktop e toda a largura em telas estreitas. Filtros são chips; exportação e importação ficam no rodapé. O seletor nativo de cor das marcações herda superfície e texto; não existe campo de busca desenhado no curso.
+**Controles de aprendizagem.** Marcar lido e dúvida usam estado pressionado, texto e cor. Barras mostram progresso numérico junto à representaçêo visual. A jornada abre à direita, ocupa até 30rem no desktop e toda a largura em telas estreitas. Filtros sêo chips; exportaçêo e importaçêo ficam no rodapé. O seletor nativo de cor das marcações herda superfície e texto; nêo existe campo de busca desenhado no curso.
 
 **Aparência.** Popover com grupos de botões para temas e preferências. A escolha atual usa borda âmbar e tinta âmbar, com estado acessível. Preferências acompanham a leitura sem substituir a identidade das trilhas.
 
@@ -173,7 +173,7 @@ Cantos suaves organizam superfícies de estudo: painéis usam raio de 14px, diag
 - **Do** conferir claro, sépia, contraste, teclado e mobile após mudanças de componente.
 - **Do** combinar cor com rótulo, número, borda ou estado textual.
 - **Do** preservar texto acessível sem JavaScript e respeitar movimento reduzido.
-- **Don't** transformar a preferência de acento em mudança da identificação das trilhas.
+- **Don't** transformar a preferência de acento em mudança da identificaçêo das trilhas.
 - **Don't** fixar cores claras de texto sobre superfícies claras ou sépia.
 - **Don't** aplicar limite de medida da prosa a tabelas e diagramas inteiros.
-- **Don't** acrescentar animação decorativa ou dependência de fonte remota para reproduzir este sistema.
+- **Don't** acrescentar animaçêo decorativa ou dependência de fonte remota para reproduzir este sistema.

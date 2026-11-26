@@ -18,7 +18,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 | 2 | Skill Check INEMA | 08 | Inspection report with evidence and review of false positives | 2–3 days | 1 |
 | 3 | Docs for AI | 05 | Documents become Markdown with conversion report | 2–3 days | 1, 2 |
 | 4 | Project Map | 07 | Architecture and sequence diagrams traceable to code | 2 days | 1, 2 |
-| 5 | Segunda Opinião | 06 | Diff review with reproduction of the issues found | 2–3 days | 1 |
+| 5 | Segunda Opiniêo | 06 | Diff review with reproduction of the issues found | 2–3 days | 1 |
 | 6 | Oficina Visual | 04 | Visual improvements with before/after comparison | 2–3 days | 1, 2 |
 | 7 | Estúdio de Prompts Visuais | 02 | Prompt catalog and generation with traceability | 2–3 days | 1, 2 |
 | 8 | Dossiê de Pesquisa | 03 | Sources become a report, questions, and a presentation | 3–4 days | 3 |
@@ -67,7 +67,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 
 **Acceptance:** no invented services; diagram legible as an image; editable source enables regeneration; the flow matches a demonstrated execution. Outside the MVP: real-time monitoring.
 
-## 5. Segunda Opinião
+## 5. Segunda Opiniêo
 
 **Problem:** the same session that writes code can repeat mistakes or ignore concurrency and export failures.
 
@@ -152,7 +152,7 @@ Estimates in days of focused work for prototypes, not including waiting for serv
 ## Suggested sequence
 
 1. **Foundation:** complete Encargo Fechado; use your card to scope everything else. Then, Skill Check and Docs for AI.
-2. **Delivery quality:** Project Map, Segunda Opinião, and Oficina Visual, applied to a single pilot.
+2. **Delivery quality:** Project Map, Segunda Opiniêo, and Oficina Visual, applied to a single pilot.
 3. **Production and research:** Estúdio de Prompts and Dossiê de Pesquisa.
 4. **Integrations:** Perfis de Modelos and Auditor GEO after validating current services.
 5. **Composition:** Kit de Entrega and Biblioteca Viva only after dependencies can run in isolation.

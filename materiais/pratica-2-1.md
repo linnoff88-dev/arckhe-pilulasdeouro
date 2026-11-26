@@ -2,7 +2,7 @@
 
 ## Entrega
 
-Um documento Markdown com origem, tabelas conferidas e avisos de conversão.
+Um documento Markdown com origem, tabelas conferidas e avisos de conversêo.
 
 ## Exercício
 
@@ -18,6 +18,6 @@ Recrie o catálogo do exemplo em Markdown. Remova temporariamente o título “P
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:

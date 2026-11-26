@@ -514,7 +514,7 @@ Decisión: ¿tarea y contacto están presentes? Si no, pedir complementación y 
 flowchart TD
   A[Receber pedido] --> B{Tarefa e contato presentes?}
   B -- Sim --> C[Registrar na lista]
-  B -- Não --> D[Pedir complemento]
+  B -- Nêo --> D[Pedir complemento]
   D --> A
   C --> E[Conferir entrega]
   E --> F[Concluir]
@@ -775,7 +775,7 @@ Elige B en esta prueba, porque la fidelidad es un criterio obligatorio y A fall�
   "tarefa_teste": "extrair-pedidos"
 }
 
-Este é um esquema didático, não um arquivo de configuração de uma CLI específica.
+Este é um esquema didático, nêo um arquivo de configuraçêo de uma CLI específica.
 ```
 
 ## 4.1 · Un sitio fácil de comprender

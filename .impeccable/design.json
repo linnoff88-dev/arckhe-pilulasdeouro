@@ -58,17 +58,17 @@
   },
   "components": [
     {
-      "name": "Botão secundário",
+      "name": "Botêo secundário",
       "kind": "button",
-      "description": "Botão secundário do sistema de leitura INEMA v2.",
+      "description": "Botêo secundário do sistema de leitura INEMA v2.",
       "html": "<button class=\"ds-button\">Minha jornada</button>",
       "css": ".ds-button{display:inline-flex;align-items:center;gap:.55rem;padding:.7rem 1rem;border:1px solid var(--border-strong);border-radius:9px;background:var(--surface);color:var(--text);font:600 .83rem/1.35 Inter,system-ui,sans-serif;min-height:44px;cursor:pointer}.ds-button:hover{background:var(--surface-2)}.ds-button:focus-visible{outline:3px solid var(--accent-2);outline-offset:4px}",
       "refersTo": "button-secondary"
     },
     {
-      "name": "Botão principal",
+      "name": "Botêo principal",
       "kind": "button",
-      "description": "Botão principal do sistema de leitura INEMA v2.",
+      "description": "Botêo principal do sistema de leitura INEMA v2.",
       "html": "<button class=\"ds-button ds-primary\">Começar módulo</button>",
       "css": ".ds-button{display:inline-flex;align-items:center;gap:.55rem;padding:.7rem 1rem;border:1px solid var(--border-strong);border-radius:9px;background:var(--surface);color:var(--text);font:600 .83rem/1.35 Inter,system-ui,sans-serif;min-height:44px;cursor:pointer}.ds-button:hover{background:var(--surface-2)}.ds-button:focus-visible{outline:3px solid var(--accent-2);outline-offset:4px}.ds-primary{background:var(--primary);border-color:var(--primary);color:#111827}.ds-primary:hover{background:var(--primary);filter:brightness(.93)}",
       "refersTo": "button-primary"
@@ -82,9 +82,9 @@
       "refersTo": "panel"
     },
     {
-      "name": "Navegação de trilha",
+      "name": "Navegaçêo de trilha",
       "kind": "nav",
-      "description": "Navegação de trilha do sistema de leitura INEMA v2.",
+      "description": "Navegaçêo de trilha do sistema de leitura INEMA v2.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Trilhas\"><a href=\"#fundamentos\" aria-current=\"page\">1. Fundamentos</a></nav>",
       "css": ".ds-nav a{display:inline-block;padding:.55rem .7rem;text-decoration:none;font:600 .8rem Inter,system-ui,sans-serif;border-radius:8px;color:var(--text-muted)}.ds-nav a:hover,.ds-nav a[aria-current]{background:var(--surface-2);color:var(--track)}.ds-nav a:focus-visible{outline:3px solid var(--accent-2);outline-offset:4px}"
     },
@@ -96,9 +96,9 @@
       "css": ".ds-chip{padding:.3rem .7rem;font:600 .82rem Inter,system-ui,sans-serif;color:var(--text-muted);background:var(--surface);border:1px solid var(--border);border-radius:9999px;cursor:pointer}.ds-chip[aria-pressed=\"true\"]{color:var(--on-primary);background:var(--accent);border-color:var(--accent)}.ds-chip:focus-visible{outline:3px solid var(--accent-2);outline-offset:4px}"
     },
     {
-      "name": "Seletor de marcação",
+      "name": "Seletor de marcaçêo",
       "kind": "input",
-      "description": "Seletor de marcação do sistema de leitura INEMA v2.",
+      "description": "Seletor de marcaçêo do sistema de leitura INEMA v2.",
       "html": "<label class=\"ds-label\">Cor <select class=\"ds-select\"><option>Amarelo</option><option>Azul</option></select></label>",
       "css": ".ds-label{color:var(--text);font-family:Inter,system-ui,sans-serif}.ds-select{background:var(--surface);color:var(--text);font:inherit}.ds-select:focus-visible{outline:3px solid var(--accent-2);outline-offset:4px}"
     },

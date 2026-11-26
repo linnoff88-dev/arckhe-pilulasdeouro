@@ -5,7 +5,7 @@
 - [x] Receber escolha do formato v2.
 - [x] Concluir aulas, exercícios e materiais próprios em português.
 - [x] Testar 18 páginas, links, desktop, celular e funções de aprendizagem.
-- [x] Corrigir os achados e obter aprovação da revisão visual.
+- [x] Corrigir os achados e obter aprovaçêo da revisêo visual.
 - [x] Preparar cadastro no portal e catálogos derivados; testes e build aprovados.
 - [x] Auditar e enviar o repositório público; verificar GitHub Pages.
 - [x] Enviar os três catálogos e registrar os commits.

@@ -1,8 +1,8 @@
-# Prática 3.3 — Modelos e configurações sem confusão
+# Prática 3.3 — Modelos e configurações sem confusêo
 
 ## Entrega
 
-Uma matriz de comparação e um perfil de exemplo sem credenciais.
+Uma matriz de comparaçêo e um perfil de exemplo sem credenciais.
 
 ## Exercício
 
@@ -10,7 +10,7 @@ Dados simulados: perfil A responde em 4 segundos e inventa um prazo; perfil B re
 
 ## Critérios
 
-- [ ] Não inventa dados ausentes.
+- [ ] Nêo inventa dados ausentes.
 - [ ] Executa as funções exigidas.
 - [ ] O perfil anterior pode ser recuperado.
 
@@ -18,6 +18,6 @@ Dados simulados: perfil A responde em 4 segundos e inventa um prazo; perfil B re
 
 Arquivo entregue:
 
-Verificação realizada:
+Verificaçêo realizada:
 
 Pendência ou próximo passo:
